@@ -37,8 +37,8 @@ This does **not** prove market superiority. It only means the concept is strong 
 
 The best way to read `PF-1` is:
 
-- not as “the filter is already invented”
-- but as “there is now a bounded architecture and score profile worth trying to instantiate in real material form”
+- not as "the filter is already invented"
+- but as "there is now a bounded architecture and score profile worth trying to instantiate in real material form"
 
 ## What Should Probably Be Explored in Real Work
 
@@ -47,4 +47,3 @@ The best way to read `PF-1` is:
 - pressure-drop behavior under practical packing and flow assumptions
 - fouling sensitivity under realistic industrial matrices
 - service-window and breakthrough behavior
-

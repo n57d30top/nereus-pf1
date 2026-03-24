@@ -2,10 +2,19 @@
   "name": "nereus-pf1-private",
   "product": "Nereus PF-1",
   "visibility": "private",
-  "repoPurpose": "sanitized technical package",
+  "repoPurpose": "private professor handover and bounded material hypothesis package",
   "releaseId": "nereus-pf1-open-source-release:cf1ba1b6-5f30-4cc6-870f-c630c8b0dc37",
   "launchReviewId": "nereus-pf1-launch-review:937782a6-4f74-4a75-8dac-e718f548e602",
   "baselineExecutionId": "nereus-pf1-baseline-benchmark-execution:d144b749-1871-43c1-8497-d53ca7b17a9e",
   "claimPosture": "bounded_open_source_only",
+  "handoverAssets": [
+    "handover/PROFESSOR_HANDOVER.md",
+    "handover/TECHNICAL_BRIEF.md",
+    "handover/PF1_CANDIDATE_MATERIAL_HYPOTHESES.md",
+    "handover/PF1_FIRST_VALIDATION_PROGRAM.md",
+    "handover/EVIDENCE_PACKAGE.md",
+    "handover/PRODUCTION_READINESS_GAPS.md",
+    "handover/QUESTIONS_FOR_PROFESSOR.md"
+  ],
   "generatedAt": "2026-03-24T11:18:29.662Z"
 }

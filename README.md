@@ -29,10 +29,12 @@ It is **not** shaped as:
 
 1. `handover/PROFESSOR_HANDOVER.md`
 2. `handover/TECHNICAL_BRIEF.md`
-3. `handover/EVIDENCE_PACKAGE.md`
-4. `handover/PRODUCTION_READINESS_GAPS.md`
-5. `handover/QUESTIONS_FOR_PROFESSOR.md`
-6. `docs/CLAIM_GUARDRAILS.md`
+3. `handover/PF1_CANDIDATE_MATERIAL_HYPOTHESES.md`
+4. `handover/PF1_FIRST_VALIDATION_PROGRAM.md`
+5. `handover/EVIDENCE_PACKAGE.md`
+6. `handover/PRODUCTION_READINESS_GAPS.md`
+7. `handover/QUESTIONS_FOR_PROFESSOR.md`
+8. `docs/CLAIM_GUARDRAILS.md`
 
 ## Included
 
@@ -41,6 +43,8 @@ It is **not** shaped as:
 - bounded benchmark-execution summary
 - benchmark matrix and comparison logic
 - explicit professor handover framing
+- candidate material hypotheses for first real PF-1 instantiation work
+- first bounded validation program for professor-led material screening
 - explicit production-readiness gaps and questions
 
 ## Not Included
@@ -50,3 +54,4 @@ It is **not** shaped as:
 - certification or compliance claims
 - pilot, field, wet-lab, or public-water release language
 - exact manufacturing SOP or field deployment instructions
+- a finalized molecular or process formula

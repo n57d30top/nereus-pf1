@@ -32,9 +32,9 @@ The current module framing is strong, but cartridge geometry, media packing, sup
 
 Cost-per-volume and service-cycle economics remain planning assumptions, not evidence.
 
-## What “Production” Should Mean Here
+## What "Production" Should Mean Here
 
-In this handover, “production” should first mean:
+In this handover, "production" should first mean:
 
 - identify a plausible material family
 - produce initial candidate material samples
@@ -46,4 +46,3 @@ Not:
 - scale-up commitment
 - field deployment
 - product launch
-
