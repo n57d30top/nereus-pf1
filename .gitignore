@@ -1,0 +1,13 @@
+# Generated editor/system noise
+.DS_Store
+Thumbs.db
+
+# Local tooling
+node_modules/
+dist/
+coverage/
+
+# Secrets and local env
+.env
+.env.*
+
