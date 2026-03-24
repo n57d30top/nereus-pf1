@@ -1,20 +1,47 @@
 # Nereus PF-1
 
-Private GitHub repository for the current sanitized `PF-1` technical package.
+Private professor handover repository for the current sanitized `PF-1` package.
+
+## Purpose
+
+This repository is meant to help a professor or senior technical collaborator evaluate whether `PF-1` is worth translating into a real material-development program.
+
+It is intentionally shaped as:
+
+- a bounded technical handover
+- a benchmark and architecture dossier
+- a production-evaluation starting point
+
+It is **not** shaped as:
+
+- a certified product file
+- a field-release packet
+- a finished manufacturing recipe
 
 ## Current Status
 
 - canonical product line: `Nereus PF-1`
 - posture: bounded closed-loop PFAS polishing module
-- repo posture: private technical package
+- handover posture: private technical evaluation packet
 - claim posture: no public superiority, certification, field, or public-water claims
+
+## Recommended Reading Order
+
+1. `handover/PROFESSOR_HANDOVER.md`
+2. `handover/TECHNICAL_BRIEF.md`
+3. `handover/EVIDENCE_PACKAGE.md`
+4. `handover/PRODUCTION_READINESS_GAPS.md`
+5. `handover/QUESTIONS_FOR_PROFESSOR.md`
+6. `docs/CLAIM_GUARDRAILS.md`
 
 ## Included
 
-- sanitized open-source-style technical release packet
+- sanitized `PF-1` technical release packet
 - bounded launch-review summary
 - bounded benchmark-execution summary
-- explicit claim guardrails
+- benchmark matrix and comparison logic
+- explicit professor handover framing
+- explicit production-readiness gaps and questions
 
 ## Not Included
 
@@ -22,11 +49,4 @@ Private GitHub repository for the current sanitized `PF-1` technical package.
 - pricing and field-economics assumptions
 - certification or compliance claims
 - pilot, field, wet-lab, or public-water release language
-
-## Canonical Reading Order
-
-1. `docs/PF1_OPEN_SOURCE_RELEASE.md`
-2. `docs/PF1_LAUNCH_REVIEW.md`
-3. `docs/PF1_BASELINE_BENCHMARK_EXECUTION.md`
-4. `docs/CLAIM_GUARDRAILS.md`
-
+- exact manufacturing SOP or field deployment instructions
