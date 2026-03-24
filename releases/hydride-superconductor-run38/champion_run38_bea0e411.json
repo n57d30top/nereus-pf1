@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "institution.superconductor-dft-run.v1",
+  "runId": "superconductor-dft-run:bea0e411-a9f0-4ade-9bc1-56e230e2ede6",
+  "sceneRef": "superconductor-dft-scene:984c4620-c6c9-4d8a-acc1-132710458aea",
+  "solverFamily": "quantum_espresso_epw",
+  "solverProfileRef": "superconductor-solver-profile:455d55cb-24f0-410a-97f7-80b58246fe36",
+  "runtimeProfileRef": "superconductor-runtime-profile:55735227-3214-4fd1-b757-e5177eb95796",
+  "executionMode": "node_alpha",
+  "backendMode": "qe_epw",
+  "status": "Failed",
+  "zeroResistanceAchieved": false,
+  "zeroResistanceTargetTemperatureK": 295,
+  "firstFailureStage": "temperature_gate",
+  "failureReasons": [
+    "temperature_gate:tc=66.53K<295K",
+    "resistance_gate:R295=1.000e-6Ohm"
+  ],
+  "observedMetrics": {
+    "estimated_tc_k": 66.525641097692,
+    "electron_phonon_lambda": 34.9596938,
+    "log_omega_k": 0.0030225,
+    "critical_field_t": 34.68140700174533,
+    "meissner_fraction": 0.97,
+    "residual_resistance_ohm": 2.5e-7,
+    "structural_stability_score": 0.76822,
+    "synthesis_plausibility_score": 0.5085759999999999,
+    "instability_penalty_score": 0.13222399999999995,
+    "pressure_penalty_score": 0.19,
+    "simulated_pressure_gpa": 22,
+    "residual_resistance_at_295k_ohm": 0.000001,
+    "temperature_deficit_k": 228.47435890230798
+  },
+  "createdAt": "2026-03-22T22:08:01.415Z",
+  "updatedAt": "2026-03-22T22:08:01.415Z"
+}

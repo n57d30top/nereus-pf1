@@ -1,0 +1,32 @@
+# SOVEREIGN STRICT DUAL-LICENSE AGREEMENT
+**(c) 2026 Pan-Stem Research Group. All Rights Reserved.**
+
+This repository and its computational contents (the "Data"), including but not limited to the structural matrices, `.cif` data, and `.workspace` outputs pertaining to the Run 38 LaH10 derivatives, are released under a strictly enforced dual-licensing model.
+
+## CRYPTOGRAPHIC PRIOR ART DECLARATION
+
+The exact computational structure of this material candidate has been cryptographically anchored to the Ethereum Base L2 blockchain.
+
+- Transaction ID: `0xf16cba6198ae279ed3e4488d5032073841d84526384c1e181c41f535e57dd91c`
+- Block number: `43786992`
+- SHA-256 dataset digest: `73fd6edb77af0ce1d6356f835baf2f5d586f5289d108efe0c6be61b1b9f9bfd5`
+
+This establishes a public prior-art record for the published dataset and associated structure package.
+
+## 1. Academic and Open Research Use
+
+Permission is granted to academic researchers, university laboratories, and non-profit open-source foundations to study, evaluate, and theoretically validate this dataset under the following conditions:
+
+1. The Data may be reproduced and used for peer review and physics publications.
+2. The Sovereign AI Architecture and Pan-Stem Research Group must be cited as the computational originator.
+3. The Data may not be integrated into closed-source proprietary software packages without a separate commercial agreement.
+
+## 2. Commercial and Corporate Use
+
+No commercial rights are granted by default. If you represent a for-profit entity, startup, commercial laboratory, or patent-holding vehicle, you may not:
+
+1. Physically synthesize this material for commercial sale or licensing without permission.
+2. Use this dataset to train proprietary machine-learning models or commercial AI systems without permission.
+3. File composition-of-matter or synthesis-process patent claims based on this published structure package while ignoring the prior-art record.
+
+To obtain commercial synthesis, patenting, or ML-training rights, contact the Pan-Stem Research Group for a separate commercial licensing agreement.
