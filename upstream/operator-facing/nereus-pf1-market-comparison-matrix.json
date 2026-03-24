@@ -1,0 +1,179 @@
+{
+  "schemaVersion": "institution.nereus-pf1-market-comparison-matrix.v1",
+  "matrixId": "nereus-pf1-market-comparison-matrix:3f923e2f-b71f-4230-a53d-4f3bad47c8f8",
+  "generatedAt": "2026-03-24T09:03:46.818Z",
+  "status": "benchmark_plan_ready",
+  "productName": "Nereus PF-1",
+  "launchReviewRef": "nereus-pf1-launch-review:937782a6-4f74-4a75-8dac-e718f548e602",
+  "commercializationPrepRef": "nereus-pf1-commercialization-prep:bfcadc1f-cef1-425a-859f-226949a0d56d",
+  "claimReadiness": "head_to_head_plan_ready",
+  "headline": "PF-1 now has a concrete 10-test head-to-head benchmark matrix, but still does not have a defensible market superiority claim.",
+  "summary": "This matrix defines the exact head-to-head tests PF-1 must pass before anyone can honestly say how much better it is than market filters. Until these runs exist, percentage-better language stays out.",
+  "baselineTechnologies": [
+    "Granular activated carbon reference bed",
+    "PFAS-focused ion exchange resin cartridge",
+    "Reverse osmosis polishing stage",
+    "One certified or certified-equivalent PFAS reduction reference unit"
+  ],
+  "comparisonPrinciples": [
+    "Use the same inlet burden, flux band, and bounded wastewater matrix for PF-1 and each baseline.",
+    "Score capture, fouling, regeneration, pressure, and service burden together rather than treating removal alone as a win.",
+    "No percentage-better language is allowed until the full matrix closes with auditable artifacts.",
+    "Closed-loop industrial wastewater positioning remains the only allowed comparison frame."
+  ],
+  "testMatrix": [
+    {
+      "testId": "pf1-h2h-gac-synthetic",
+      "title": "Head-to-head versus granular activated carbon in a matched synthetic PFAS matrix",
+      "category": "head_to_head_baseline",
+      "objective": "Measure PF-1 removal, fouling, and pressure against a conventional GAC baseline under the same inlet load.",
+      "baseline": "Granular activated carbon reference bed with matched residence time.",
+      "passSignal": "PF-1 matches or exceeds PFAS removal while preserving a defendable fouling/pressure profile over the same run window.",
+      "claimUnlocked": "Only allows internal “competitive with GAC under one bounded matrix” language."
+    },
+    {
+      "testId": "pf1-h2h-ion-exchange-synthetic",
+      "title": "Head-to-head versus ion exchange resin in a matched synthetic PFAS matrix",
+      "category": "head_to_head_baseline",
+      "objective": "Compare PF-1 against a resin baseline for removal efficiency, pressure behavior, and service-cycle burden.",
+      "baseline": "PFAS-focused ion exchange resin cartridge at comparable flux.",
+      "passSignal": "PF-1 maintains removal within the same band without a worse service-cycle penalty.",
+      "claimUnlocked": "Internal “competitive with ion exchange in one bounded profile” language only."
+    },
+    {
+      "testId": "pf1-h2h-ro-synthetic",
+      "title": "Head-to-head versus reverse osmosis polishing in a matched synthetic PFAS matrix",
+      "category": "head_to_head_baseline",
+      "objective": "Benchmark PF-1 against RO on removal, pressure, and waste-stream implications for the same bounded use case.",
+      "baseline": "Reverse osmosis polishing stage configured for the same target water envelope.",
+      "passSignal": "PF-1 demonstrates a defendable closed-loop polishing tradeoff without worse bounded pressure and service assumptions.",
+      "claimUnlocked": "Internal “alternative polishing posture” language only, not a market superiority claim."
+    },
+    {
+      "testId": "pf1-certified-reference-unit",
+      "title": "Reference run against one certified market unit or documented certified-equivalent setup",
+      "category": "head_to_head_baseline",
+      "objective": "Anchor PF-1 against a market-relevant benchmark that maps more directly to certifiable claims.",
+      "baseline": "One NSF-certified or documented certified-equivalent PFAS reduction reference unit.",
+      "passSignal": "PF-1 performs credibly enough to justify further certification-oriented comparison work.",
+      "claimUnlocked": "No external claim yet; only unlocks “head-to-head benchmark program exists.”"
+    },
+    {
+      "testId": "pf1-matrix-competing-ions",
+      "title": "Competing-ion robustness matrix",
+      "category": "matrix_robustness",
+      "objective": "Verify PF-1 stability when the PFAS profile is stressed by salts and competing ions inside bounded wastewater conditions.",
+      "baseline": "Repeat the same baseline technologies under the same stressed matrix.",
+      "passSignal": "PF-1 keeps removal and bounded pressure/fouling behavior inside the internal guardrail band.",
+      "claimUnlocked": "Internal robustness wording for one stressed industrial matrix."
+    },
+    {
+      "testId": "pf1-matrix-organic-load",
+      "title": "Organic-load and surfactant robustness matrix",
+      "category": "matrix_robustness",
+      "objective": "Test whether PF-1 degrades sharply when organic load or surfactant burden increases.",
+      "baseline": "GAC and resin comparison runs under the same foulant load.",
+      "passSignal": "PF-1 retains a defendable capture/fouling balance relative to the bounded baseline window.",
+      "claimUnlocked": "Internal “robust across two bounded wastewater matrices” wording only."
+    },
+    {
+      "testId": "pf1-breakthrough-service-window",
+      "title": "Breakthrough and service-window mapping",
+      "category": "service_cycle",
+      "objective": "Map when PF-1 meaningfully degrades so swap and regeneration assumptions are not hand-wavy.",
+      "baseline": "Breakthrough curves for the matched baseline media at the same flux band.",
+      "passSignal": "PF-1 shows a repeatable bounded service window suitable for operator-reviewed swap planning.",
+      "claimUnlocked": "Internal service-window claims, still no market superiority percentage."
+    },
+    {
+      "testId": "pf1-regeneration-recovery-loop",
+      "title": "Offline regeneration recovery loop",
+      "category": "service_cycle",
+      "objective": "Measure PF-1 post-regeneration recovery versus fresh-media performance across repeated loops.",
+      "baseline": "Baseline media replacement or regeneration economics under the same bounded assumptions.",
+      "passSignal": "PF-1 regeneration stays within the bounded penalty window already used internally.",
+      "claimUnlocked": "Internal regeneration discipline claim only."
+    },
+    {
+      "testId": "pf1-cost-per-treated-volume",
+      "title": "Cost per treated-volume guardrail model",
+      "category": "economic_guardrail",
+      "objective": "Estimate whether PF-1 could plausibly compete economically once swap/regeneration and throughput are included.",
+      "baseline": "Reference cost model for GAC, resin, and RO in the same bounded use case.",
+      "passSignal": "PF-1 stays within a plausible premium or parity envelope instead of requiring unrealistic service assumptions.",
+      "claimUnlocked": "Internal commercialization readiness only."
+    },
+    {
+      "testId": "pf1-claim-closeout-gate",
+      "title": "Claim closeout gate",
+      "category": "claim_gate",
+      "objective": "Require all prior test families to be complete before any percentage-better language is entertained.",
+      "baseline": "Full completed benchmark matrix with auditable source artifacts.",
+      "passSignal": "All head-to-head, robustness, service, and economic tests are complete and consistent.",
+      "claimUnlocked": "Only then may PF-1 enter a quantified “x% better under y bounded conditions” discussion."
+    }
+  ],
+  "claimGate": [
+    "No quantified superiority claim before all 10 tests are completed and archived.",
+    "No “better than market” language from internal scores alone.",
+    "No public-water, field, or certification-adjacent claims from this matrix by itself.",
+    "Any future percent claim must name the exact baseline, matrix, and operating envelope."
+  ],
+  "nextSteps": [
+    "Run the four baseline head-to-head tests first so PF-1 has real market anchors instead of only internal scores.",
+    "Use the robustness and service-cycle tests to decide whether PF-1 can carry a credible cost-per-volume story.",
+    "Only after the full matrix closes should PF-1 be considered for quantified market-comparison language."
+  ],
+  "blockerCodes": [],
+  "noGoClaims": [
+    "No “PF-1 is x% better than market filters” claim yet.",
+    "No implication that EPA or NSF certification has been achieved or replicated.",
+    "No public-water, household, pilot, field, or release language from this matrix alone.",
+    "No bundled claim that PF-1 beats GAC, resin, and RO simultaneously before direct runs exist."
+  ],
+  "markdown": "# Nereus PF-1 Market Comparison Matrix\n\nGenerated at: `2026-03-24T09:03:46.818Z`\n\n- matrixId: `nereus-pf1-market-comparison-matrix:3f923e2f-b71f-4230-a53d-4f3bad47c8f8`\n- productName: Nereus PF-1\n- status: `benchmark_plan_ready`\n- claimReadiness: `head_to_head_plan_ready`\n\n## Headline\n\nPF-1 now has a concrete 10-test head-to-head benchmark matrix, but still does not have a defensible market superiority claim.\n\n## Summary\n\nThis matrix defines the exact head-to-head tests PF-1 must pass before anyone can honestly say how much better it is than market filters. Until these runs exist, percentage-better language stays out.\n\n## Baseline Technologies\n\n- Granular activated carbon reference bed\n- PFAS-focused ion exchange resin cartridge\n- Reverse osmosis polishing stage\n- One certified or certified-equivalent PFAS reduction reference unit\n\n## Comparison Principles\n\n- Use the same inlet burden, flux band, and bounded wastewater matrix for PF-1 and each baseline.\n- Score capture, fouling, regeneration, pressure, and service burden together rather than treating removal alone as a win.\n- No percentage-better language is allowed until the full matrix closes with auditable artifacts.\n- Closed-loop industrial wastewater positioning remains the only allowed comparison frame.\n\n## Test Matrix\n\n### Head-to-head versus granular activated carbon in a matched synthetic PFAS matrix\n\n- testId: `pf1-h2h-gac-synthetic`\n- category: `head_to_head_baseline`\n- objective: Measure PF-1 removal, fouling, and pressure against a conventional GAC baseline under the same inlet load.\n- baseline: Granular activated carbon reference bed with matched residence time.\n- passSignal: PF-1 matches or exceeds PFAS removal while preserving a defendable fouling/pressure profile over the same run window.\n- claimUnlocked: Only allows internal “competitive with GAC under one bounded matrix” language.\n\n### Head-to-head versus ion exchange resin in a matched synthetic PFAS matrix\n\n- testId: `pf1-h2h-ion-exchange-synthetic`\n- category: `head_to_head_baseline`\n- objective: Compare PF-1 against a resin baseline for removal efficiency, pressure behavior, and service-cycle burden.\n- baseline: PFAS-focused ion exchange resin cartridge at comparable flux.\n- passSignal: PF-1 maintains removal within the same band without a worse service-cycle penalty.\n- claimUnlocked: Internal “competitive with ion exchange in one bounded profile” language only.\n\n### Head-to-head versus reverse osmosis polishing in a matched synthetic PFAS matrix\n\n- testId: `pf1-h2h-ro-synthetic`\n- category: `head_to_head_baseline`\n- objective: Benchmark PF-1 against RO on removal, pressure, and waste-stream implications for the same bounded use case.\n- baseline: Reverse osmosis polishing stage configured for the same target water envelope.\n- passSignal: PF-1 demonstrates a defendable closed-loop polishing tradeoff without worse bounded pressure and service assumptions.\n- claimUnlocked: Internal “alternative polishing posture” language only, not a market superiority claim.\n\n### Reference run against one certified market unit or documented certified-equivalent setup\n\n- testId: `pf1-certified-reference-unit`\n- category: `head_to_head_baseline`\n- objective: Anchor PF-1 against a market-relevant benchmark that maps more directly to certifiable claims.\n- baseline: One NSF-certified or documented certified-equivalent PFAS reduction reference unit.\n- passSignal: PF-1 performs credibly enough to justify further certification-oriented comparison work.\n- claimUnlocked: No external claim yet; only unlocks “head-to-head benchmark program exists.”\n\n### Competing-ion robustness matrix\n\n- testId: `pf1-matrix-competing-ions`\n- category: `matrix_robustness`\n- objective: Verify PF-1 stability when the PFAS profile is stressed by salts and competing ions inside bounded wastewater conditions.\n- baseline: Repeat the same baseline technologies under the same stressed matrix.\n- passSignal: PF-1 keeps removal and bounded pressure/fouling behavior inside the internal guardrail band.\n- claimUnlocked: Internal robustness wording for one stressed industrial matrix.\n\n### Organic-load and surfactant robustness matrix\n\n- testId: `pf1-matrix-organic-load`\n- category: `matrix_robustness`\n- objective: Test whether PF-1 degrades sharply when organic load or surfactant burden increases.\n- baseline: GAC and resin comparison runs under the same foulant load.\n- passSignal: PF-1 retains a defendable capture/fouling balance relative to the bounded baseline window.\n- claimUnlocked: Internal “robust across two bounded wastewater matrices” wording only.\n\n### Breakthrough and service-window mapping\n\n- testId: `pf1-breakthrough-service-window`\n- category: `service_cycle`\n- objective: Map when PF-1 meaningfully degrades so swap and regeneration assumptions are not hand-wavy.\n- baseline: Breakthrough curves for the matched baseline media at the same flux band.\n- passSignal: PF-1 shows a repeatable bounded service window suitable for operator-reviewed swap planning.\n- claimUnlocked: Internal service-window claims, still no market superiority percentage.\n\n### Offline regeneration recovery loop\n\n- testId: `pf1-regeneration-recovery-loop`\n- category: `service_cycle`\n- objective: Measure PF-1 post-regeneration recovery versus fresh-media performance across repeated loops.\n- baseline: Baseline media replacement or regeneration economics under the same bounded assumptions.\n- passSignal: PF-1 regeneration stays within the bounded penalty window already used internally.\n- claimUnlocked: Internal regeneration discipline claim only.\n\n### Cost per treated-volume guardrail model\n\n- testId: `pf1-cost-per-treated-volume`\n- category: `economic_guardrail`\n- objective: Estimate whether PF-1 could plausibly compete economically once swap/regeneration and throughput are included.\n- baseline: Reference cost model for GAC, resin, and RO in the same bounded use case.\n- passSignal: PF-1 stays within a plausible premium or parity envelope instead of requiring unrealistic service assumptions.\n- claimUnlocked: Internal commercialization readiness only.\n\n### Claim closeout gate\n\n- testId: `pf1-claim-closeout-gate`\n- category: `claim_gate`\n- objective: Require all prior test families to be complete before any percentage-better language is entertained.\n- baseline: Full completed benchmark matrix with auditable source artifacts.\n- passSignal: All head-to-head, robustness, service, and economic tests are complete and consistent.\n- claimUnlocked: Only then may PF-1 enter a quantified “x% better under y bounded conditions” discussion.\n\n## Claim Gate\n\n- No quantified superiority claim before all 10 tests are completed and archived.\n- No “better than market” language from internal scores alone.\n- No public-water, field, or certification-adjacent claims from this matrix by itself.\n- Any future percent claim must name the exact baseline, matrix, and operating envelope.\n\n## Next Steps\n\n- Run the four baseline head-to-head tests first so PF-1 has real market anchors instead of only internal scores.\n- Use the robustness and service-cycle tests to decide whether PF-1 can carry a credible cost-per-volume story.\n- Only after the full matrix closes should PF-1 be considered for quantified market-comparison language.\n\n## No-Go Claims\n\n- No “PF-1 is x% better than market filters” claim yet.\n- No implication that EPA or NSF certification has been achieved or replicated.\n- No public-water, household, pilot, field, or release language from this matrix alone.\n- No bundled claim that PF-1 beats GAC, resin, and RO simultaneously before direct runs exist.\n\n## Safety\n\n- The market comparison matrix is an internal planning artifact, not a released benchmark report.\n- It defines what PF-1 must prove before quantified market claims are allowed.\n- PF-1 remains advisory-only, closed-loop only, and not a released PFAS treatment product.\n",
+  "markdownRef": "C:\\claude\\SovrynClean\\outputs\\runtime\\nereus\\pf1-market-comparison-matrices\\nereus-pf1-market-comparison-matrix_3f923e2f-b71f-4230-a53d-4f3bad47c8f8.md",
+  "evidenceRefs": [
+    "nereus-pf1-launch-review:937782a6-4f74-4a75-8dac-e718f548e602",
+    "nereus-pf1-commercialization-prep:bfcadc1f-cef1-425a-859f-226949a0d56d",
+    "nereus-pf1-internal-product-packet:9eb8bd78-5263-4211-bb4f-effa92ec86b6",
+    "nereus-pf1-product-decision:958eb4e2-6b0e-4d04-822e-cce7e1e7cf22",
+    "nereus-pf1-commercialization-tighten:b06c93dd-982c-4d0b-8a34-1f235d7dc541",
+    "nereus-pf1-product-review-refresh:37ed878e-07ff-48c1-80f6-a47a221652b0",
+    "nereus-pf1-second-confirmation-replay:b7bf94f7-6180-4008-bc26-6cd61dcbad09",
+    "nereus-pfas-product-review:84d8aaf2-c7f4-48df-a644-7d65447de21f",
+    "nereus-pfas-product-candidate:65a2f0cd-fbfd-4c80-b086-05bb304f7756",
+    "nereus-pfas-confirmation-cohort:f387483f-95b1-41ab-bb75-cffed4f71ffe",
+    "nereus-product-concept:e09cf313-8aaa-488d-8c09-fe59a61c7dda",
+    "nereus-platform-blueprint:b06ac4ec-adfe-4dc8-912e-f4a653d66fb0",
+    "nereus-hm1-profile-recheck:59666260-fcb6-41fe-ad19-a8528bfc8fec",
+    "nereus-campaign:2adb731d-bd88-46a4-8968-61662c77620d",
+    "nereus-research-packet:6f6e12b0-dc06-4e8e-9e0d-727f846593c6",
+    "nereus-research-brief:fb434e3f-e1d8-405c-8a03-d9825296ba0d",
+    "nereus-partner-packet:14976369-2ffd-4faa-b030-8a76757911ff",
+    "nereus-campaign:b27ed028-1989-46ab-8464-9059ec9ef8d3",
+    "nereus-research-packet:ffef8b36-a38d-4383-a536-757c6d1fc59b",
+    "nereus-research-brief:a6999675-bfd1-4429-9b2b-d02d9b9ce8f9",
+    "nereus-pfas-confirmation-cohort:f4e1322b-5226-450b-88f9-a01b3aef48a9",
+    "nereus-campaign:71252d2c-d846-4379-a8c3-4ff2574dc53a",
+    "nereus-campaign:d9476e05-71bf-43a2-8b85-1d216a12c299",
+    "nereus-research-packet:07024eae-189d-465f-a98b-6ed445e22ec8",
+    "nereus-research-brief:7263b3e6-cdef-423b-a709-9a6971677b15",
+    "nereus-campaign:6af3a3d6-7384-49fe-acde-a0a95c8b620e",
+    "nereus-research-packet:81173927-78f4-46ae-b02b-f22dbddb2f4d",
+    "nereus-research-brief:60807a1b-d13d-4e48-b417-8979ab3ee7a1",
+    "nereus-campaign:43785cf0-5f06-4dab-8398-1f175af10f15",
+    "nereus-research-packet:e5d33cf5-79a7-4447-b7d9-07be8206af07",
+    "nereus-research-brief:b8cca57f-5a6c-4366-bfa0-9232f3b4c200"
+  ],
+  "artifactRefs": [
+    "C:\\claude\\SovrynClean\\outputs\\runtime\\nereus\\pf1-market-comparison-matrices\\nereus-pf1-market-comparison-matrix_3f923e2f-b71f-4230-a53d-4f3bad47c8f8.json",
+    "C:\\claude\\SovrynClean\\outputs\\runtime\\nereus\\pf1-market-comparison-matrices\\nereus-pf1-market-comparison-matrix_3f923e2f-b71f-4230-a53d-4f3bad47c8f8.md"
+  ],
+  "safety": [
+    "The market comparison matrix is an internal planning artifact, not a released benchmark report.",
+    "It defines what PF-1 must prove before quantified market claims are allowed.",
+    "PF-1 remains advisory-only, closed-loop only, and not a released PFAS treatment product."
+  ],
+  "updatedAt": "2026-03-24T09:03:46.818Z"
+}

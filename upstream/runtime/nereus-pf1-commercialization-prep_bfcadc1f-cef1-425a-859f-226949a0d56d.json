@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "institution.nereus-pf1-commercialization-prep.v1",
+  "prepId": "nereus-pf1-commercialization-prep:bfcadc1f-cef1-425a-859f-226949a0d56d",
+  "generatedAt": "2026-03-23T18:46:23.857Z",
+  "status": "internal_preparation_ready",
+  "productName": "Nereus PF-1",
+  "decisionRef": "nereus-pf1-product-decision:958eb4e2-6b0e-4d04-822e-cce7e1e7cf22",
+  "commercializationTightenRef": "nereus-pf1-commercialization-tighten:b06c93dd-982c-4d0b-8a34-1f235d7dc541",
+  "reviewRefreshRef": "nereus-pf1-product-review-refresh:37ed878e-07ff-48c1-80f6-a47a221652b0",
+  "secondConfirmationReplayRef": "nereus-pf1-second-confirmation-replay:b7bf94f7-6180-4008-bc26-6cd61dcbad09",
+  "productReviewRef": "nereus-pfas-product-review:84d8aaf2-c7f4-48df-a644-7d65447de21f",
+  "candidateRef": "nereus-pfas-product-candidate:65a2f0cd-fbfd-4c80-b086-05bb304f7756",
+  "targetCustomerProfile": "Industrial PFAS remediation and process-water operators that need one conservative closed-loop polishing stage inside bounded wastewater loops.",
+  "firstCommercialShape": "One bounded PFAS polishing module with replaceable media packs and operator-reviewed service cycles, initially framed for a single closed-loop wastewater use case.",
+  "placementEnvelope": "Deploy PF-1 only as a polishing stage behind pre-treatment and before final guard stages or recirculation return points inside controlled wastewater systems.",
+  "serviceCycleEnvelope": "Use a conservative swap-plus-offline-regeneration service cadence reviewed customer-by-customer, without promising field-proven lifecycle economics.",
+  "pricingEnvelope": "Position PF-1 as a premium specialty polishing module plus bounded service review rather than as a commodity consumable or broad managed-treatment platform.",
+  "commercializationNarrative": "Nereus PF-1 should now be handled as one bounded internal productization program: one closed-loop PFAS polishing module, one conservative buyer profile, one insertion-point story, and one service-cycle model kept inside internal review discipline.",
+  "requiredCommercialProof": [
+    "Keep the multi-repeat PFAS-first proof set as the canonical productization anchor.",
+    "Hold the insertion-point story to one closed-loop wastewater polishing scenario.",
+    "Treat service-cycle assumptions as bounded internal planning inputs until a later evidence gate explicitly widens them."
+  ],
+  "noGoClaims": [
+    "No pilot, field, wet-lab, or public-water deployment claim.",
+    "No universal Nereus family claim spanning PFAS, microplastic, and heavy metals in one commercial release.",
+    "No promise of field-proven regeneration economics beyond bounded internal assumptions."
+  ],
+  "operatorChecklist": [
+    "Keep PF-1 as the primary Nereus productization story and keep the language closed-loop only.",
+    "Use one buyer profile and one insertion-point narrative in internal product materials.",
+    "Keep HM-1 on hold and microplastic in validation while PF-1 stays primary."
+  ],
+  "nextSteps": [
+    "Refresh the internal PF-1 product packet with the tighter buyer, placement, and service-cycle frame.",
+    "Use PF-1 as the active productization wedge in the next Nereus review instead of reopening HM-1.",
+    "Do not widen beyond bounded internal productization until a later gate explicitly allows it."
+  ],
+  "blockerCodes": [],
+  "markdown": "# Nereus PF-1 Commercialization Prep\n\nGenerated at: `2026-03-23T18:46:23.857Z`\n\n- prepId: `nereus-pf1-commercialization-prep:bfcadc1f-cef1-425a-859f-226949a0d56d`\n- productName: Nereus PF-1\n- status: `internal_preparation_ready`\n\n## Commercial Frame\n\n- targetCustomerProfile: Industrial PFAS remediation and process-water operators that need one conservative closed-loop polishing stage inside bounded wastewater loops.\n- firstCommercialShape: One bounded PFAS polishing module with replaceable media packs and operator-reviewed service cycles, initially framed for a single closed-loop wastewater use case.\n- placementEnvelope: Deploy PF-1 only as a polishing stage behind pre-treatment and before final guard stages or recirculation return points inside controlled wastewater systems.\n- serviceCycleEnvelope: Use a conservative swap-plus-offline-regeneration service cadence reviewed customer-by-customer, without promising field-proven lifecycle economics.\n- pricingEnvelope: Position PF-1 as a premium specialty polishing module plus bounded service review rather than as a commodity consumable or broad managed-treatment platform.\n\n## Narrative\n\nNereus PF-1 should now be handled as one bounded internal productization program: one closed-loop PFAS polishing module, one conservative buyer profile, one insertion-point story, and one service-cycle model kept inside internal review discipline.\n\n## Required Commercial Proof\n\n- Keep the multi-repeat PFAS-first proof set as the canonical productization anchor.\n- Hold the insertion-point story to one closed-loop wastewater polishing scenario.\n- Treat service-cycle assumptions as bounded internal planning inputs until a later evidence gate explicitly widens them.\n\n## No-Go Claims\n\n- No pilot, field, wet-lab, or public-water deployment claim.\n- No universal Nereus family claim spanning PFAS, microplastic, and heavy metals in one commercial release.\n- No promise of field-proven regeneration economics beyond bounded internal assumptions.\n\n## Operator Checklist\n\n- Keep PF-1 as the primary Nereus productization story and keep the language closed-loop only.\n- Use one buyer profile and one insertion-point narrative in internal product materials.\n- Keep HM-1 on hold and microplastic in validation while PF-1 stays primary.\n\n## Next Steps\n\n- Refresh the internal PF-1 product packet with the tighter buyer, placement, and service-cycle frame.\n- Use PF-1 as the active productization wedge in the next Nereus review instead of reopening HM-1.\n- Do not widen beyond bounded internal productization until a later gate explicitly allows it.\n\n## Safety\n\n- PF-1 commercialization prep remains internal, bounded, and advisory-only.\n- No pilot deployment, field deployment, wet-lab validation, or public-water claims are authorized.\n- PF-1 remains an internal product candidate program, not a released PFAS treatment product.\n",
+  "markdownRef": "C:\\claude\\SovrynClean\\outputs\\runtime\\nereus\\pf1-commercialization-preps\\nereus-pf1-commercialization-prep_bfcadc1f-cef1-425a-859f-226949a0d56d.md",
+  "evidenceRefs": [
+    "nereus-pf1-product-decision:958eb4e2-6b0e-4d04-822e-cce7e1e7cf22",
+    "nereus-pf1-commercialization-tighten:b06c93dd-982c-4d0b-8a34-1f235d7dc541",
+    "nereus-pf1-product-review-refresh:37ed878e-07ff-48c1-80f6-a47a221652b0",
+    "nereus-pf1-second-confirmation-replay:b7bf94f7-6180-4008-bc26-6cd61dcbad09",
+    "nereus-pfas-product-review:84d8aaf2-c7f4-48df-a644-7d65447de21f",
+    "nereus-pfas-product-candidate:65a2f0cd-fbfd-4c80-b086-05bb304f7756",
+    "nereus-pfas-confirmation-cohort:f387483f-95b1-41ab-bb75-cffed4f71ffe",
+    "nereus-product-concept:e09cf313-8aaa-488d-8c09-fe59a61c7dda",
+    "nereus-platform-blueprint:b06ac4ec-adfe-4dc8-912e-f4a653d66fb0",
+    "nereus-hm1-profile-recheck:59666260-fcb6-41fe-ad19-a8528bfc8fec",
+    "nereus-campaign:2adb731d-bd88-46a4-8968-61662c77620d",
+    "nereus-research-packet:6f6e12b0-dc06-4e8e-9e0d-727f846593c6",
+    "nereus-research-brief:fb434e3f-e1d8-405c-8a03-d9825296ba0d",
+    "nereus-partner-packet:14976369-2ffd-4faa-b030-8a76757911ff",
+    "nereus-campaign:b27ed028-1989-46ab-8464-9059ec9ef8d3",
+    "nereus-research-packet:ffef8b36-a38d-4383-a536-757c6d1fc59b",
+    "nereus-research-brief:a6999675-bfd1-4429-9b2b-d02d9b9ce8f9",
+    "nereus-pfas-confirmation-cohort:f4e1322b-5226-450b-88f9-a01b3aef48a9",
+    "nereus-campaign:71252d2c-d846-4379-a8c3-4ff2574dc53a",
+    "nereus-campaign:d9476e05-71bf-43a2-8b85-1d216a12c299",
+    "nereus-research-packet:07024eae-189d-465f-a98b-6ed445e22ec8",
+    "nereus-research-brief:7263b3e6-cdef-423b-a709-9a6971677b15",
+    "nereus-campaign:6af3a3d6-7384-49fe-acde-a0a95c8b620e",
+    "nereus-research-packet:81173927-78f4-46ae-b02b-f22dbddb2f4d",
+    "nereus-research-brief:60807a1b-d13d-4e48-b417-8979ab3ee7a1",
+    "nereus-campaign:43785cf0-5f06-4dab-8398-1f175af10f15",
+    "nereus-research-packet:e5d33cf5-79a7-4447-b7d9-07be8206af07",
+    "nereus-research-brief:b8cca57f-5a6c-4366-bfa0-9232f3b4c200"
+  ],
+  "artifactRefs": [],
+  "safety": [
+    "PF-1 commercialization prep remains internal, bounded, and advisory-only.",
+    "No pilot deployment, field deployment, wet-lab validation, or public-water claims are authorized.",
+    "PF-1 remains an internal product candidate program, not a released PFAS treatment product."
+  ],
+  "updatedAt": "2026-03-23T18:46:23.857Z"
+}

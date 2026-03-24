@@ -1,0 +1,214 @@
+{
+  "schemaVersion": "institution.nereus-pf1-head-to-head-benchmark.v1",
+  "benchmarkId": "nereus-pf1-head-to-head-benchmark:e6347d76-1741-430e-b9e2-374fc9be9d61",
+  "generatedAt": "2026-03-24T09:54:54.008Z",
+  "status": "baseline_benchmark_ready",
+  "claimReadiness": "internal_head_to_head_only",
+  "benchmarkMode": "bounded_internal_head_to_head_surrogate",
+  "productName": "Nereus PF-1",
+  "launchReviewRef": "nereus-pf1-launch-review:937782a6-4f74-4a75-8dac-e718f548e602",
+  "commercializationPrepRef": "nereus-pf1-commercialization-prep:bfcadc1f-cef1-425a-859f-226949a0d56d",
+  "marketComparisonMatrixRef": "nereus-pf1-market-comparison-matrix:3f923e2f-b71f-4230-a53d-4f3bad47c8f8",
+  "secondConfirmationReplayRef": "nereus-pf1-second-confirmation-replay:b7bf94f7-6180-4008-bc26-6cd61dcbad09",
+  "benchmarkWindow": "One bounded closed-loop PFAS polishing window against four market-analog surrogate baselines: GAC, ion exchange, RO, and one certified-reference surrogate.",
+  "headline": "PF-1 now has four bounded internal baseline comparisons anchored to its closed proof set, but still does not have a market-superiority claim.",
+  "summary": "This benchmark materializes the first four baseline comparisons from the PF-1 market-comparison matrix using the confirmed PF-1 score profile as the anchor. It is useful for internal product framing, not for public or quantified superiority claims.",
+  "baselineComparisons": [
+    {
+      "comparisonId": "nereus-pf1-head-to-head-benchmark:e6347d76-1741-430e-b9e2-374fc9be9d61:gac_reference_bed",
+      "baselineFamily": "gac_reference_bed",
+      "baselineLabel": "Granular activated carbon reference bed",
+      "baselineSourceMode": "market_analog_surrogate",
+      "matrixTestRef": "pf1-h2h-gac-synthetic",
+      "interpretation": "bounded_advantage",
+      "pf1Scores": {
+        "captureEfficiencyScore": 0.8,
+        "foulingResistanceScore": 0.725,
+        "regenerationScore": 0.695,
+        "pressureDropScore": 0.775,
+        "manufacturabilityScore": 0.82
+      },
+      "baselineScores": {
+        "captureEfficiencyScore": 0.69,
+        "foulingResistanceScore": 0.66,
+        "regenerationScore": 0.55,
+        "pressureDropScore": 0.64,
+        "manufacturabilityScore": 0.72
+      },
+      "deltaScores": {
+        "captureEfficiencyScore": 0.11,
+        "foulingResistanceScore": 0.065,
+        "regenerationScore": 0.145,
+        "pressureDropScore": 0.135,
+        "manufacturabilityScore": 0.1
+      },
+      "weightedDelta": 0.111,
+      "headline": "PF-1 versus Granular activated carbon reference bed remains a bounded advantage call in bounded internal benchmarking.",
+      "summary": "PF-1 holds a better combined bounded balance on the surrogate scorecard, but only inside this internal comparison frame.",
+      "claimGate": "Only internal “PF-1 looks stronger than a GAC surrogate inside one bounded matrix” language is unlocked here.",
+      "noGoClaim": "Do not translate this into a released “better than GAC” claim without direct audited head-to-head evidence."
+    },
+    {
+      "comparisonId": "nereus-pf1-head-to-head-benchmark:e6347d76-1741-430e-b9e2-374fc9be9d61:ion_exchange_resin_cartridge",
+      "baselineFamily": "ion_exchange_resin_cartridge",
+      "baselineLabel": "PFAS-focused ion exchange resin cartridge",
+      "baselineSourceMode": "market_analog_surrogate",
+      "matrixTestRef": "pf1-h2h-ion-exchange-synthetic",
+      "interpretation": "bounded_advantage",
+      "pf1Scores": {
+        "captureEfficiencyScore": 0.8,
+        "foulingResistanceScore": 0.725,
+        "regenerationScore": 0.695,
+        "pressureDropScore": 0.775,
+        "manufacturabilityScore": 0.82
+      },
+      "baselineScores": {
+        "captureEfficiencyScore": 0.76,
+        "foulingResistanceScore": 0.67,
+        "regenerationScore": 0.51,
+        "pressureDropScore": 0.7,
+        "manufacturabilityScore": 0.68
+      },
+      "deltaScores": {
+        "captureEfficiencyScore": 0.04,
+        "foulingResistanceScore": 0.055,
+        "regenerationScore": 0.185,
+        "pressureDropScore": 0.075,
+        "manufacturabilityScore": 0.14
+      },
+      "weightedDelta": 0.087,
+      "headline": "PF-1 versus PFAS-focused ion exchange resin cartridge remains a bounded advantage call in bounded internal benchmarking.",
+      "summary": "PF-1 holds a better combined bounded balance on the surrogate scorecard, but only inside this internal comparison frame.",
+      "claimGate": "Only internal “PF-1 may carry a service-cycle tradeoff posture versus resin in one bounded matrix” language is unlocked here.",
+      "noGoClaim": "Do not claim PF-1 beats ion exchange generally or economically from this surrogate comparison alone."
+    },
+    {
+      "comparisonId": "nereus-pf1-head-to-head-benchmark:e6347d76-1741-430e-b9e2-374fc9be9d61:reverse_osmosis_polishing_stage",
+      "baselineFamily": "reverse_osmosis_polishing_stage",
+      "baselineLabel": "Reverse osmosis polishing stage",
+      "baselineSourceMode": "market_analog_surrogate",
+      "matrixTestRef": "pf1-h2h-ro-synthetic",
+      "interpretation": "bounded_advantage",
+      "pf1Scores": {
+        "captureEfficiencyScore": 0.8,
+        "foulingResistanceScore": 0.725,
+        "regenerationScore": 0.695,
+        "pressureDropScore": 0.775,
+        "manufacturabilityScore": 0.82
+      },
+      "baselineScores": {
+        "captureEfficiencyScore": 0.82,
+        "foulingResistanceScore": 0.58,
+        "regenerationScore": 0.42,
+        "pressureDropScore": 0.55,
+        "manufacturabilityScore": 0.61
+      },
+      "deltaScores": {
+        "captureEfficiencyScore": -0.02,
+        "foulingResistanceScore": 0.145,
+        "regenerationScore": 0.275,
+        "pressureDropScore": 0.225,
+        "manufacturabilityScore": 0.21
+      },
+      "weightedDelta": 0.132,
+      "headline": "PF-1 versus Reverse osmosis polishing stage remains a bounded advantage call in bounded internal benchmarking.",
+      "summary": "PF-1 holds a better combined bounded balance on the surrogate scorecard, but only inside this internal comparison frame.",
+      "claimGate": "Only internal “PF-1 may offer an alternative polishing tradeoff to RO inside one bounded use case” language is unlocked here.",
+      "noGoClaim": "Do not treat this as proof PF-1 outperforms RO on removal, compliance, or field lifecycle."
+    },
+    {
+      "comparisonId": "nereus-pf1-head-to-head-benchmark:e6347d76-1741-430e-b9e2-374fc9be9d61:certified_reference_unit",
+      "baselineFamily": "certified_reference_unit",
+      "baselineLabel": "Certified or certified-equivalent PFAS reference unit",
+      "baselineSourceMode": "market_analog_surrogate",
+      "matrixTestRef": "pf1-certified-reference-unit",
+      "interpretation": "bounded_advantage",
+      "pf1Scores": {
+        "captureEfficiencyScore": 0.8,
+        "foulingResistanceScore": 0.725,
+        "regenerationScore": 0.695,
+        "pressureDropScore": 0.775,
+        "manufacturabilityScore": 0.82
+      },
+      "baselineScores": {
+        "captureEfficiencyScore": 0.78,
+        "foulingResistanceScore": 0.69,
+        "regenerationScore": 0.52,
+        "pressureDropScore": 0.68,
+        "manufacturabilityScore": 0.66
+      },
+      "deltaScores": {
+        "captureEfficiencyScore": 0.02,
+        "foulingResistanceScore": 0.035,
+        "regenerationScore": 0.175,
+        "pressureDropScore": 0.095,
+        "manufacturabilityScore": 0.16
+      },
+      "weightedDelta": 0.079,
+      "headline": "PF-1 versus Certified or certified-equivalent PFAS reference unit remains a bounded advantage call in bounded internal benchmarking.",
+      "summary": "PF-1 holds a better combined bounded balance on the surrogate scorecard, but only inside this internal comparison frame.",
+      "claimGate": "This only proves PF-1 can be framed against a certification-relevant surrogate, not that certification-grade parity is achieved.",
+      "noGoClaim": "Do not imply NSF, EPA, or certification-oriented equivalence from this surrogate benchmark."
+    }
+  ],
+  "findings": [
+    "PF-1 baseline readout produced 4 bounded-advantage, 0 bounded-tradeoff, 0 bounded-parity, and 0 not-cleared surrogate comparisons.",
+    "The strongest weighted delta currently sits at Reverse osmosis polishing stage.",
+    "All four comparisons stay explicitly tied to market-analog surrogate baselines rather than direct certified product tests.",
+    "This artifact closes the internal benchmark scaffold, not the external marketing or certification claim gate."
+  ],
+  "decision": [
+    "Use this benchmark as the internal comparison layer behind PF-1 product review and launch review follow-up.",
+    "Keep all language bounded to tradeoffs, parity, or relative posture inside one closed-loop PFAS polishing frame.",
+    "Do not translate surrogate score deltas into released “better than market” percentages."
+  ],
+  "nextSteps": [
+    "Use the GAC, ion-exchange, RO, and certified-reference surrogate comparisons to sharpen the bounded PF-1 product story.",
+    "Keep all future market-comparison language tied to one named baseline and one bounded operating envelope.",
+    "Only a later direct audited head-to-head program may unlock quantified superiority language."
+  ],
+  "blockerCodes": [],
+  "markdown": "# Nereus PF-1 Head-to-Head Baseline Benchmark\n\nGenerated at: `2026-03-24T09:54:54.008Z`\n\n- benchmarkId: `nereus-pf1-head-to-head-benchmark:e6347d76-1741-430e-b9e2-374fc9be9d61`\n- productName: Nereus PF-1\n- status: `baseline_benchmark_ready`\n- claimReadiness: `internal_head_to_head_only`\n- benchmarkMode: `bounded_internal_head_to_head_surrogate`\n\n## Headline\n\nPF-1 now has four bounded internal baseline comparisons anchored to its closed proof set, but still does not have a market-superiority claim.\n\n## Summary\n\nThis benchmark materializes the first four baseline comparisons from the PF-1 market-comparison matrix using the confirmed PF-1 score profile as the anchor. It is useful for internal product framing, not for public or quantified superiority claims.\n\n## Benchmark Window\n\nOne bounded closed-loop PFAS polishing window against four market-analog surrogate baselines: GAC, ion exchange, RO, and one certified-reference surrogate.\n\n## Baseline Comparisons\n\n### Granular activated carbon reference bed\n\n- interpretation: `bounded_advantage`\n- matrixTestRef: `pf1-h2h-gac-synthetic`\n- weightedDelta: 0.111\n- PF-1 capture/fouling/regeneration/pressure/manufacturability: 0.8 / 0.725 / 0.695 / 0.775 / 0.82\n- baseline capture/fouling/regeneration/pressure/manufacturability: 0.69 / 0.66 / 0.55 / 0.64 / 0.72\n- delta capture/fouling/regeneration/pressure/manufacturability: 0.11 / 0.065 / 0.145 / 0.135 / 0.1\n- headline: PF-1 versus Granular activated carbon reference bed remains a bounded advantage call in bounded internal benchmarking.\n- summary: PF-1 holds a better combined bounded balance on the surrogate scorecard, but only inside this internal comparison frame.\n- claimGate: Only internal “PF-1 looks stronger than a GAC surrogate inside one bounded matrix” language is unlocked here.\n- noGoClaim: Do not translate this into a released “better than GAC” claim without direct audited head-to-head evidence.\n\n### PFAS-focused ion exchange resin cartridge\n\n- interpretation: `bounded_advantage`\n- matrixTestRef: `pf1-h2h-ion-exchange-synthetic`\n- weightedDelta: 0.087\n- PF-1 capture/fouling/regeneration/pressure/manufacturability: 0.8 / 0.725 / 0.695 / 0.775 / 0.82\n- baseline capture/fouling/regeneration/pressure/manufacturability: 0.76 / 0.67 / 0.51 / 0.7 / 0.68\n- delta capture/fouling/regeneration/pressure/manufacturability: 0.04 / 0.055 / 0.185 / 0.075 / 0.14\n- headline: PF-1 versus PFAS-focused ion exchange resin cartridge remains a bounded advantage call in bounded internal benchmarking.\n- summary: PF-1 holds a better combined bounded balance on the surrogate scorecard, but only inside this internal comparison frame.\n- claimGate: Only internal “PF-1 may carry a service-cycle tradeoff posture versus resin in one bounded matrix” language is unlocked here.\n- noGoClaim: Do not claim PF-1 beats ion exchange generally or economically from this surrogate comparison alone.\n\n### Reverse osmosis polishing stage\n\n- interpretation: `bounded_advantage`\n- matrixTestRef: `pf1-h2h-ro-synthetic`\n- weightedDelta: 0.132\n- PF-1 capture/fouling/regeneration/pressure/manufacturability: 0.8 / 0.725 / 0.695 / 0.775 / 0.82\n- baseline capture/fouling/regeneration/pressure/manufacturability: 0.82 / 0.58 / 0.42 / 0.55 / 0.61\n- delta capture/fouling/regeneration/pressure/manufacturability: -0.02 / 0.145 / 0.275 / 0.225 / 0.21\n- headline: PF-1 versus Reverse osmosis polishing stage remains a bounded advantage call in bounded internal benchmarking.\n- summary: PF-1 holds a better combined bounded balance on the surrogate scorecard, but only inside this internal comparison frame.\n- claimGate: Only internal “PF-1 may offer an alternative polishing tradeoff to RO inside one bounded use case” language is unlocked here.\n- noGoClaim: Do not treat this as proof PF-1 outperforms RO on removal, compliance, or field lifecycle.\n\n### Certified or certified-equivalent PFAS reference unit\n\n- interpretation: `bounded_advantage`\n- matrixTestRef: `pf1-certified-reference-unit`\n- weightedDelta: 0.079\n- PF-1 capture/fouling/regeneration/pressure/manufacturability: 0.8 / 0.725 / 0.695 / 0.775 / 0.82\n- baseline capture/fouling/regeneration/pressure/manufacturability: 0.78 / 0.69 / 0.52 / 0.68 / 0.66\n- delta capture/fouling/regeneration/pressure/manufacturability: 0.02 / 0.035 / 0.175 / 0.095 / 0.16\n- headline: PF-1 versus Certified or certified-equivalent PFAS reference unit remains a bounded advantage call in bounded internal benchmarking.\n- summary: PF-1 holds a better combined bounded balance on the surrogate scorecard, but only inside this internal comparison frame.\n- claimGate: This only proves PF-1 can be framed against a certification-relevant surrogate, not that certification-grade parity is achieved.\n- noGoClaim: Do not imply NSF, EPA, or certification-oriented equivalence from this surrogate benchmark.\n\n## Findings\n\n- PF-1 baseline readout produced 4 bounded-advantage, 0 bounded-tradeoff, 0 bounded-parity, and 0 not-cleared surrogate comparisons.\n- The strongest weighted delta currently sits at Reverse osmosis polishing stage.\n- All four comparisons stay explicitly tied to market-analog surrogate baselines rather than direct certified product tests.\n- This artifact closes the internal benchmark scaffold, not the external marketing or certification claim gate.\n\n## Decision\n\n- Use this benchmark as the internal comparison layer behind PF-1 product review and launch review follow-up.\n- Keep all language bounded to tradeoffs, parity, or relative posture inside one closed-loop PFAS polishing frame.\n- Do not translate surrogate score deltas into released “better than market” percentages.\n\n## Next Steps\n\n- Use the GAC, ion-exchange, RO, and certified-reference surrogate comparisons to sharpen the bounded PF-1 product story.\n- Keep all future market-comparison language tied to one named baseline and one bounded operating envelope.\n- Only a later direct audited head-to-head program may unlock quantified superiority language.\n\n## Safety\n\n- The PF-1 head-to-head benchmark is a bounded internal surrogate comparison artifact only.\n- It does not authorize public-water, field, certification, or quantified market-superiority claims.\n- PF-1 remains advisory-only, closed-loop only, and not a released PFAS treatment product.\n",
+  "markdownRef": "C:\\claude\\SovrynClean\\outputs\\runtime\\nereus\\pf1-head-to-head-benchmarks\\nereus-pf1-head-to-head-benchmark_e6347d76-1741-430e-b9e2-374fc9be9d61.md",
+  "evidenceRefs": [
+    "nereus-pf1-launch-review:937782a6-4f74-4a75-8dac-e718f548e602",
+    "nereus-pf1-commercialization-prep:bfcadc1f-cef1-425a-859f-226949a0d56d",
+    "nereus-pf1-market-comparison-matrix:3f923e2f-b71f-4230-a53d-4f3bad47c8f8",
+    "nereus-pf1-second-confirmation-replay:b7bf94f7-6180-4008-bc26-6cd61dcbad09",
+    "nereus-pfas-product-candidate:65a2f0cd-fbfd-4c80-b086-05bb304f7756",
+    "nereus-pfas-confirmation-cohort:f4e1322b-5226-450b-88f9-a01b3aef48a9",
+    "nereus-pfas-product-review:84d8aaf2-c7f4-48df-a644-7d65447de21f",
+    "nereus-pf1-internal-product-packet:9eb8bd78-5263-4211-bb4f-effa92ec86b6",
+    "nereus-pf1-product-decision:958eb4e2-6b0e-4d04-822e-cce7e1e7cf22",
+    "nereus-pf1-commercialization-tighten:b06c93dd-982c-4d0b-8a34-1f235d7dc541",
+    "nereus-pf1-product-review-refresh:37ed878e-07ff-48c1-80f6-a47a221652b0",
+    "nereus-pfas-confirmation-cohort:f387483f-95b1-41ab-bb75-cffed4f71ffe",
+    "nereus-product-concept:e09cf313-8aaa-488d-8c09-fe59a61c7dda",
+    "nereus-platform-blueprint:b06ac4ec-adfe-4dc8-912e-f4a653d66fb0",
+    "nereus-hm1-profile-recheck:59666260-fcb6-41fe-ad19-a8528bfc8fec",
+    "nereus-campaign:2adb731d-bd88-46a4-8968-61662c77620d",
+    "nereus-research-packet:6f6e12b0-dc06-4e8e-9e0d-727f846593c6",
+    "nereus-research-brief:fb434e3f-e1d8-405c-8a03-d9825296ba0d",
+    "nereus-partner-packet:14976369-2ffd-4faa-b030-8a76757911ff",
+    "nereus-campaign:b27ed028-1989-46ab-8464-9059ec9ef8d3",
+    "nereus-research-packet:ffef8b36-a38d-4383-a536-757c6d1fc59b",
+    "nereus-research-brief:a6999675-bfd1-4429-9b2b-d02d9b9ce8f9",
+    "nereus-campaign:71252d2c-d846-4379-a8c3-4ff2574dc53a",
+    "nereus-campaign:d9476e05-71bf-43a2-8b85-1d216a12c299",
+    "nereus-research-packet:07024eae-189d-465f-a98b-6ed445e22ec8",
+    "nereus-research-brief:7263b3e6-cdef-423b-a709-9a6971677b15",
+    "nereus-campaign:6af3a3d6-7384-49fe-acde-a0a95c8b620e",
+    "nereus-research-packet:81173927-78f4-46ae-b02b-f22dbddb2f4d",
+    "nereus-research-brief:60807a1b-d13d-4e48-b417-8979ab3ee7a1",
+    "nereus-campaign:43785cf0-5f06-4dab-8398-1f175af10f15",
+    "nereus-research-packet:e5d33cf5-79a7-4447-b7d9-07be8206af07",
+    "nereus-research-brief:b8cca57f-5a6c-4366-bfa0-9232f3b4c200"
+  ],
+  "artifactRefs": [],
+  "safety": [
+    "The PF-1 head-to-head benchmark is a bounded internal surrogate comparison artifact only.",
+    "It does not authorize public-water, field, certification, or quantified market-superiority claims.",
+    "PF-1 remains advisory-only, closed-loop only, and not a released PFAS treatment product."
+  ],
+  "updatedAt": "2026-03-24T09:54:54.008Z"
+}

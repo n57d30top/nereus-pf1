@@ -1,0 +1,119 @@
+{
+  "schemaVersion": "institution.nereus-pf1-second-confirmation-replay.v1",
+  "reportId": "nereus-pf1-second-confirmation-replay:b7bf94f7-6180-4008-bc26-6cd61dcbad09",
+  "generatedAt": "2026-03-23T16:02:17.218Z",
+  "status": "confirmed_packet_ready",
+  "proofStatus": "closed",
+  "repeatClosureStatus": "multi_repeat",
+  "nextAction": "tighten_pf1_product_review",
+  "productName": "Nereus PF-1",
+  "candidateRef": "nereus-pfas-product-candidate:65a2f0cd-fbfd-4c80-b086-05bb304f7756",
+  "confirmationReportRef": "nereus-pfas-confirmation-cohort:f4e1322b-5226-450b-88f9-a01b3aef48a9",
+  "productReviewRef": "nereus-pfas-product-review:84d8aaf2-c7f4-48df-a644-7d65447de21f",
+  "platformBlueprintRef": "nereus-platform-blueprint:b06ac4ec-adfe-4dc8-912e-f4a653d66fb0",
+  "hm1ProfileRecheckRef": "nereus-hm1-profile-recheck:59666260-fcb6-41fe-ad19-a8528bfc8fec",
+  "leadCampaignRef": "nereus-campaign:2adb731d-bd88-46a4-8968-61662c77620d",
+  "leadPacketRef": "nereus-research-packet:6f6e12b0-dc06-4e8e-9e0d-727f846593c6",
+  "leadBriefRef": "nereus-research-brief:fb434e3f-e1d8-405c-8a03-d9825296ba0d",
+  "leadPartnerPacketRef": "nereus-partner-packet:14976369-2ffd-4faa-b030-8a76757911ff",
+  "replayCampaignRef": "nereus-campaign:b27ed028-1989-46ab-8464-9059ec9ef8d3",
+  "replayPacketRef": "nereus-research-packet:ffef8b36-a38d-4383-a536-757c6d1fc59b",
+  "replayBriefRef": "nereus-research-brief:a6999675-bfd1-4429-9b2b-d02d9b9ce8f9",
+  "replayRecommendedNextAction": "prepare_research_packet",
+  "replayProfileId": "pf1_second_confirmation_replay_v1",
+  "replayTargetProfile": {
+    "materialClass": "adsorbent",
+    "waterMatrix": "wastewater",
+    "targetRemovalEfficiency": 0.92,
+    "targetFluxLmh": 65,
+    "maxRegenerationPenalty": 0.18,
+    "maxPressureDropBar": 0.85
+  },
+  "replayAdjustments": [
+    "Repeat the PF-1 replay on the same adsorbent/wastewater bounded PFAS profile so this pass tests replay closure instead of a new wedge.",
+    "Keep target flux at 65.0 LMH and pressure/drop limits at 0.850 bar so the second confirmation stays directly comparable to the first cohort.",
+    "Do not widen to pilot, field, wet-lab, or public-water positioning while PF-1 proof remains bounded."
+  ],
+  "initialActionCounts": {
+    "hold": 2,
+    "continue_screening": 0,
+    "prepare_research_packet": 1
+  },
+  "combinedActionCounts": {
+    "hold": 2,
+    "continue_screening": 0,
+    "prepare_research_packet": 2
+  },
+  "initialAverageScores": {
+    "captureEfficiencyScore": 0.817,
+    "foulingResistanceScore": 0.72,
+    "regenerationScore": 0.687,
+    "pressureDropScore": 0.75,
+    "manufacturabilityScore": 0.817
+  },
+  "replayScores": {
+    "captureEfficiencyScore": 0.75,
+    "foulingResistanceScore": 0.74,
+    "regenerationScore": 0.72,
+    "pressureDropScore": 0.85,
+    "manufacturabilityScore": 0.83
+  },
+  "combinedAverageScores": {
+    "captureEfficiencyScore": 0.8,
+    "foulingResistanceScore": 0.725,
+    "regenerationScore": 0.695,
+    "pressureDropScore": 0.775,
+    "manufacturabilityScore": 0.82
+  },
+  "replayVsInitialAverageDeltas": {
+    "captureEfficiencyScore": -0.067,
+    "foulingResistanceScore": 0.02,
+    "regenerationScore": 0.033,
+    "pressureDropScore": 0.1,
+    "manufacturabilityScore": 0.013
+  },
+  "headline": "Nereus PF-1 repeated packet-ready PFAS evidence strongly enough to tighten the bounded product-review story.",
+  "summary": "PF-1 now has enough repeated PFAS-first packet-ready evidence to support a tighter bounded internal product-review frame.",
+  "findings": [
+    "PF-1 second confirmation replay used candidate nereus-pfas-product-candidate:65a2f0cd-fbfd-4c80-b086-05bb304f7756 and prior confirmation nereus-pfas-confirmation-cohort:f4e1322b-5226-450b-88f9-a01b3aef48a9 as its evidence anchor.",
+    "Replay campaign nereus-campaign:b27ed028-1989-46ab-8464-9059ec9ef8d3 resolved to prepare_research_packet.",
+    "Combined prepare/continue/hold counts are now 2/0/2.",
+    "Replay vs initial average deltas: fouling=0.02, regeneration=0.033, pressure=0.1."
+  ],
+  "decision": [
+    "Treat PF-1 as a repeated PFAS-first bounded candidate with enough replay proof to tighten the internal product-review story.",
+    "Keep HM-1 on hold and microplastic in validation while PF-1 carries the primary bounded narrative."
+  ],
+  "nextSteps": [
+    "Refresh the PF-1 product review so placement, buyer story, and regeneration language reflect repeated replay proof.",
+    "Keep PF-1 advisory-only and closed-loop only.",
+    "Do not widen to pilot, field, wet-lab, or public-water claims."
+  ],
+  "blockerCodes": [],
+  "markdown": "# Nereus PF-1 Second Confirmation Replay\n\nGenerated at: `2026-03-23T16:02:17.218Z`\n\n- reportId: `nereus-pf1-second-confirmation-replay:b7bf94f7-6180-4008-bc26-6cd61dcbad09`\n- productName: Nereus PF-1\n- status: `confirmed_packet_ready`\n- proofStatus: `closed`\n- repeatClosureStatus: `multi_repeat`\n- nextAction: `tighten_pf1_product_review`\n- replayRecommendedNextAction: `prepare_research_packet`\n\n## Headline\n\nNereus PF-1 repeated packet-ready PFAS evidence strongly enough to tighten the bounded product-review story.\n\n## Summary\n\nPF-1 now has enough repeated PFAS-first packet-ready evidence to support a tighter bounded internal product-review frame.\n\n## Replay Profile\n\n- replayProfileId: pf1_second_confirmation_replay_v1\n- materialClass: adsorbent\n- waterMatrix: wastewater\n- targetRemovalEfficiency: 0.920\n- targetFluxLmh: 65.0\n- maxRegenerationPenalty: 0.180\n- maxPressureDropBar: 0.850\n\n- Repeat the PF-1 replay on the same adsorbent/wastewater bounded PFAS profile so this pass tests replay closure instead of a new wedge.\n- Keep target flux at 65.0 LMH and pressure/drop limits at 0.850 bar so the second confirmation stays directly comparable to the first cohort.\n- Do not widen to pilot, field, wet-lab, or public-water positioning while PF-1 proof remains bounded.\n\n## Counts\n\n- initial prepare/continue/hold: 1/0/2\n- combined prepare/continue/hold: 2/0/2\n\n## Score Readout\n\n- initial average capture/fouling/regeneration/pressure/manufacturability: 0.817 / 0.72 / 0.687 / 0.75 / 0.817\n- replay capture/fouling/regeneration/pressure/manufacturability: 0.75 / 0.74 / 0.72 / 0.85 / 0.83\n- combined average capture/fouling/regeneration/pressure/manufacturability: 0.8 / 0.725 / 0.695 / 0.775 / 0.82\n- replay vs initial average deltas: -0.067 / 0.02 / 0.033 / 0.1 / 0.013\n\n## Findings\n\n- PF-1 second confirmation replay used candidate nereus-pfas-product-candidate:65a2f0cd-fbfd-4c80-b086-05bb304f7756 and prior confirmation nereus-pfas-confirmation-cohort:f4e1322b-5226-450b-88f9-a01b3aef48a9 as its evidence anchor.\n- Replay campaign nereus-campaign:b27ed028-1989-46ab-8464-9059ec9ef8d3 resolved to prepare_research_packet.\n- Combined prepare/continue/hold counts are now 2/0/2.\n- Replay vs initial average deltas: fouling=0.02, regeneration=0.033, pressure=0.1.\n\n## Decision\n\n- Treat PF-1 as a repeated PFAS-first bounded candidate with enough replay proof to tighten the internal product-review story.\n- Keep HM-1 on hold and microplastic in validation while PF-1 carries the primary bounded narrative.\n\n## Next Steps\n\n- Refresh the PF-1 product review so placement, buyer story, and regeneration language reflect repeated replay proof.\n- Keep PF-1 advisory-only and closed-loop only.\n- Do not widen to pilot, field, wet-lab, or public-water claims.\n\n## Safety\n\n- PF-1 second confirmation replay remains advisory-only and closed-loop only.\n- This report does not authorize pilot deployment, field deployment, wet-lab validation, or public-water claims.\n- PF-1 remains an internal product candidate, not a released PFAS treatment product.\n",
+  "markdownRef": "C:\\claude\\SovrynClean\\outputs\\runtime\\nereus\\pf1-second-confirmation-replays\\nereus-pf1-second-confirmation-replay_b7bf94f7-6180-4008-bc26-6cd61dcbad09.md",
+  "evidenceRefs": [
+    "nereus-pfas-product-candidate:65a2f0cd-fbfd-4c80-b086-05bb304f7756",
+    "nereus-pfas-confirmation-cohort:f4e1322b-5226-450b-88f9-a01b3aef48a9",
+    "nereus-pfas-product-review:84d8aaf2-c7f4-48df-a644-7d65447de21f",
+    "nereus-platform-blueprint:b06ac4ec-adfe-4dc8-912e-f4a653d66fb0",
+    "nereus-hm1-profile-recheck:59666260-fcb6-41fe-ad19-a8528bfc8fec",
+    "nereus-campaign:2adb731d-bd88-46a4-8968-61662c77620d",
+    "nereus-research-packet:6f6e12b0-dc06-4e8e-9e0d-727f846593c6",
+    "nereus-research-brief:fb434e3f-e1d8-405c-8a03-d9825296ba0d",
+    "nereus-partner-packet:14976369-2ffd-4faa-b030-8a76757911ff",
+    "nereus-campaign:b27ed028-1989-46ab-8464-9059ec9ef8d3",
+    "nereus-research-packet:ffef8b36-a38d-4383-a536-757c6d1fc59b",
+    "nereus-research-brief:a6999675-bfd1-4429-9b2b-d02d9b9ce8f9"
+  ],
+  "artifactRefs": [
+    "C:\\claude\\SovrynClean\\outputs\\runtime\\nereus\\pf1-second-confirmation-replays\\nereus-pf1-second-confirmation-replay_b7bf94f7-6180-4008-bc26-6cd61dcbad09.json",
+    "C:\\claude\\SovrynClean\\outputs\\runtime\\nereus\\pf1-second-confirmation-replays\\nereus-pf1-second-confirmation-replay_b7bf94f7-6180-4008-bc26-6cd61dcbad09.md"
+  ],
+  "safety": [
+    "PF-1 second confirmation replay remains advisory-only and closed-loop only.",
+    "This report does not authorize pilot deployment, field deployment, wet-lab validation, or public-water claims.",
+    "PF-1 remains an internal product candidate, not a released PFAS treatment product."
+  ],
+  "updatedAt": "2026-03-23T16:02:17.218Z"
+}

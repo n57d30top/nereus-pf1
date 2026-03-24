@@ -54,6 +54,7 @@ If you only read a few files, read these in order:
 6. `handover/PF1_X1_CRYSTALLINE_BRANCH.md`
 7. `handover/PF1_PATENT_MAP.md`
 8. `handover/PF1_FIRST_VALIDATION_PROGRAM.md`
+9. `handover/PF1_COMPLETE_TRANSFER_INDEX.md`
 
 ## What Is In The Repo
 
@@ -76,6 +77,7 @@ If you only read a few files, read these in order:
 
 - `handover/PF1_PATENT_MAP.md`
 - `handover/PF1_FIRST_VALIDATION_PROGRAM.md`
+- `handover/PF1_COMPLETE_TRANSFER_INDEX.md`
 - `handover/EVIDENCE_PACKAGE.md`
 - `handover/PRODUCTION_READINESS_GAPS.md`
 - `handover/QUESTIONS_FOR_PROFESSOR.md`
@@ -83,6 +85,13 @@ If you only read a few files, read these in order:
 - `docs/PF1_BASELINE_BENCHMARK_EXECUTION.md`
 - `docs/PF1_MARKET_COMPARISON_MATRIX.md`
 - `docs/CLAIM_GUARDRAILS.md`
+
+### Upstream PF-1 Core Snapshots
+
+- `upstream/operator-facing/`
+- `upstream/runtime/`
+- `upstream/source/shared/`
+- `upstream/source/server/src/services/cognition/nereus/`
 
 ## The Current Honest Status
 
@@ -146,3 +155,9 @@ It is:
 - instantiate a small bounded candidate set
 - run a short bench validation program
 - decide quickly whether PF-1 survives contact with real material work
+
+## Complete Transfer Note
+
+This repo now includes not only the handover-facing PF-1 summaries, but also the core PF-1 upstream artifacts and source snapshots from the main `SovrynClean` repo.
+
+Use `handover/PF1_COMPLETE_TRANSFER_INDEX.md` as the master map for what was copied in and where the patent-interesting surfaces currently sit.
