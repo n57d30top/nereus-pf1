@@ -33,11 +33,13 @@ It is **not** shaped as:
 4. `handover/TECHNICAL_BRIEF.md`
 5. `handover/PF1_CANDIDATE_MATERIAL_HYPOTHESES.md`
 6. `handover/PF1_CANDIDATE_MATERIALS_TABLE.md`
-7. `handover/PF1_FIRST_VALIDATION_PROGRAM.md`
-8. `handover/EVIDENCE_PACKAGE.md`
-9. `handover/PRODUCTION_READINESS_GAPS.md`
-10. `handover/QUESTIONS_FOR_PROFESSOR.md`
-11. `docs/CLAIM_GUARDRAILS.md`
+7. `handover/PF1_C1_EXPLORATORY_SYNTHESIS_SOP.md`
+8. `handover/PF1_X1_CRYSTALLINE_BRANCH.md`
+9. `handover/PF1_FIRST_VALIDATION_PROGRAM.md`
+10. `handover/EVIDENCE_PACKAGE.md`
+11. `handover/PRODUCTION_READINESS_GAPS.md`
+12. `handover/QUESTIONS_FOR_PROFESSOR.md`
+13. `docs/CLAIM_GUARDRAILS.md`
 
 ## Included
 
@@ -50,6 +52,8 @@ It is **not** shaped as:
 - explicit professor handover framing
 - candidate material hypotheses for first real PF-1 instantiation work
 - three concrete bounded PF-1 start candidates for academic downselection
+- one exploratory PF1-C1 synthesis SOP
+- one hypothetical crystalline PF-1 branch with draft `.cif`
 - first bounded validation program for professor-led material screening
 - explicit production-readiness gaps and questions
 

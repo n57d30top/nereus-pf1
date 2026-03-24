@@ -46,6 +46,9 @@ Treat `PF-1` as a **technical hypothesis with unusually good internal structure*
 - `handover/TECHNICAL_BRIEF.md`
 - `handover/PF1_CANDIDATE_MATERIAL_HYPOTHESES.md`
 - `handover/PF1_CANDIDATE_MATERIALS_TABLE.md`
+- `handover/PF1_C1_EXPLORATORY_SYNTHESIS_SOP.md`
+- `handover/PF1_X1_CRYSTALLINE_BRANCH.md`
+- `structures/PF1_X1_HYPOTHETICAL_ACTIVE_PHASE.cif`
 - `handover/PF1_FIRST_VALIDATION_PROGRAM.md`
 - `handover/PRODUCTION_READINESS_GAPS.md`
 - `handover/QUESTIONS_FOR_PROFESSOR.md`

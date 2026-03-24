@@ -42,6 +42,10 @@ Hydraulics may look strong while working PFAS capacity stays too low.
 
 `Priority 1`
 
+### Companion Artifact
+
+See `handover/PF1_C1_EXPLORATORY_SYNTHESIS_SOP.md`.
+
 ## Candidate 2
 
 ### Working Name
@@ -113,6 +117,10 @@ Pressure behavior may improve while useful total capacity becomes too small.
 ### Current Rank
 
 `Priority 3`
+
+### Companion Artifact
+
+See `handover/PF1_X1_CRYSTALLINE_BRANCH.md` and `structures/PF1_X1_HYPOTHETICAL_ACTIVE_PHASE.cif`.
 
 ## Downselection Logic
 
