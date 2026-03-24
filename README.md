@@ -1,67 +1,146 @@
 # Nereus PF-1
 
-Private professor handover repository for the current sanitized `PF-1` package.
+Private handover repository for `PF-1`.
 
-## Purpose
+This repo is meant for a professor or senior materials collaborator who needs to answer one practical question:
 
-This repository is meant to help a professor or senior technical collaborator evaluate whether `PF-1` is worth translating into a real material-development program.
+**Is `PF-1` strong enough to justify real material-development work?**
 
-It is intentionally shaped as:
+## What PF-1 Is
 
-- a bounded technical handover
-- a benchmark and architecture dossier
-- a production-evaluation starting point
+`PF-1` is the current strongest surviving `Nereus` candidate.
 
-It is **not** shaped as:
+In the cleanest current form, it should be read as:
+
+- one **bounded closed-loop PFAS polishing module**
+- for **controlled industrial wastewater loops**
+- with a **PFAS-first** product story
+- strong enough for real technical review
+- not yet strong enough for certification, field, or market claims
+
+## What This Repo Is For
+
+This repo is designed as a **technical handover**, not as a marketing deck and not as a finished manufacturing package.
+
+It should help a professor quickly understand:
+
+- what `PF-1` is
+- why it won internally
+- what evidence exists
+- what is still missing
+- which material families are worth trying first
+- how to start a bounded first validation effort
+
+## What This Repo Is Not
+
+This repo is **not**:
 
 - a certified product file
-- a field-release packet
-- a finished manufacturing recipe
+- a field-deployment packet
+- a public-water claim package
+- a finished molecular formula
+- a final synthesis protocol
+- a proven manufacturing transfer
 
-## Current Status
+## The Fastest Reading Path
 
-- canonical product line: `Nereus PF-1`
-- posture: bounded closed-loop PFAS polishing module
-- handover posture: private technical evaluation packet
-- claim posture: no public superiority, certification, field, or public-water claims
-
-## Recommended Reading Order
+If you only read a few files, read these in order:
 
 1. `handover/COVER_LETTER_FOR_PROFESSOR.md`
 2. `handover/PF1_CANONICAL_PRODUCT_DOSSIER.md`
-3. `handover/PROFESSOR_HANDOVER.md`
-4. `handover/TECHNICAL_BRIEF.md`
-5. `handover/PF1_CANDIDATE_MATERIAL_HYPOTHESES.md`
-6. `handover/PF1_CANDIDATE_MATERIALS_TABLE.md`
-7. `handover/PF1_C1_EXPLORATORY_SYNTHESIS_SOP.md`
-8. `handover/PF1_X1_CRYSTALLINE_BRANCH.md`
-9. `handover/PF1_FIRST_VALIDATION_PROGRAM.md`
-10. `handover/EVIDENCE_PACKAGE.md`
-11. `handover/PRODUCTION_READINESS_GAPS.md`
-12. `handover/QUESTIONS_FOR_PROFESSOR.md`
-13. `docs/CLAIM_GUARDRAILS.md`
+3. `handover/TECHNICAL_BRIEF.md`
+4. `handover/PF1_CANDIDATE_MATERIALS_TABLE.md`
+5. `handover/PF1_C1_EXPLORATORY_SYNTHESIS_SOP.md`
+6. `handover/PF1_X1_CRYSTALLINE_BRANCH.md`
+7. `handover/PF1_FIRST_VALIDATION_PROGRAM.md`
 
-## Included
+## What Is In The Repo
 
-- sanitized `PF-1` technical release packet
-- one cover letter for direct professor outreach
-- one canonical PF-1 product dossier for fast technical handover
-- bounded launch-review summary
-- bounded benchmark-execution summary
-- benchmark matrix and comparison logic
-- explicit professor handover framing
-- candidate material hypotheses for first real PF-1 instantiation work
-- three concrete bounded PF-1 start candidates for academic downselection
-- one exploratory PF1-C1 synthesis SOP
-- one hypothetical crystalline PF-1 branch with draft `.cif`
-- first bounded validation program for professor-led material screening
-- explicit production-readiness gaps and questions
+### Frontdoor
 
-## Not Included
+- `handover/COVER_LETTER_FOR_PROFESSOR.md`
+- `handover/PF1_CANONICAL_PRODUCT_DOSSIER.md`
+- `handover/PROFESSOR_HANDOVER.md`
+- `handover/TECHNICAL_BRIEF.md`
 
-- customer-specific commercialization details
-- pricing and field-economics assumptions
-- certification or compliance claims
-- pilot, field, wet-lab, or public-water release language
-- exact manufacturing SOP or field deployment instructions
-- a finalized molecular or process formula
+### Material Start Points
+
+- `handover/PF1_CANDIDATE_MATERIAL_HYPOTHESES.md`
+- `handover/PF1_CANDIDATE_MATERIALS_TABLE.md`
+- `handover/PF1_C1_EXPLORATORY_SYNTHESIS_SOP.md`
+- `handover/PF1_X1_CRYSTALLINE_BRANCH.md`
+- `structures/PF1_X1_HYPOTHETICAL_ACTIVE_PHASE.cif`
+
+### Validation And Evidence
+
+- `handover/PF1_FIRST_VALIDATION_PROGRAM.md`
+- `handover/EVIDENCE_PACKAGE.md`
+- `handover/PRODUCTION_READINESS_GAPS.md`
+- `handover/QUESTIONS_FOR_PROFESSOR.md`
+- `docs/PF1_LAUNCH_REVIEW.md`
+- `docs/PF1_BASELINE_BENCHMARK_EXECUTION.md`
+- `docs/PF1_MARKET_COMPARISON_MATRIX.md`
+- `docs/CLAIM_GUARDRAILS.md`
+
+## The Current Honest Status
+
+### What Is Already Strong
+
+- `PF-1` is the main surviving `Nereus` candidate.
+- It held the best internal balance across capture, fouling, regeneration, pressure behavior, and manufacturability.
+- It survived a bounded internal confirmation and benchmark chain strongly enough to justify real material work.
+
+### What Is Still Open
+
+- there is no finalized real material instantiation
+- there is no finished production recipe
+- there is no proven field behavior
+- there is no certification-ready claim basis
+- there is no defensible public "better than market" percentage claim
+
+## How To Read The Material Work
+
+There are currently two useful ways to approach PF-1:
+
+### Path A: Realistic First Material Path
+
+`PF1-C1` is the most practical first branch.
+
+Read:
+
+1. `handover/PF1_CANDIDATE_MATERIALS_TABLE.md`
+2. `handover/PF1_C1_EXPLORATORY_SYNTHESIS_SOP.md`
+3. `handover/PF1_FIRST_VALIDATION_PROGRAM.md`
+
+### Path B: Crystalline Exploratory Side Branch
+
+`PF1-X1` exists only because some collaborators may want a crystallographically expressible branch and a `.cif`-style structure hypothesis.
+
+Read:
+
+1. `handover/PF1_X1_CRYSTALLINE_BRANCH.md`
+2. `structures/PF1_X1_HYPOTHETICAL_ACTIVE_PHASE.cif`
+
+Important:
+
+`PF1-X1` is a **hypothetical side branch**, not proof that the final PF-1 material is crystalline.
+
+## The Main Ask To A Professor
+
+Please use this repo to answer:
+
+1. Is the PF-1 material logic scientifically plausible enough to justify real work?
+2. Which first material family should be instantiated?
+3. What is the smallest useful first validation program?
+4. What are the biggest hidden failure risks?
+
+## The Best Next Step
+
+The next useful step is **not** broad productization.
+
+It is:
+
+- choose the first candidate family
+- instantiate a small bounded candidate set
+- run a short bench validation program
+- decide quickly whether PF-1 survives contact with real material work
