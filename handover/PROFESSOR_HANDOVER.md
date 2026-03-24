@@ -37,6 +37,7 @@ Treat `PF-1` as a **technical hypothesis with unusually good internal structure*
 
 ## Canonical Artifacts
 
+- `handover/COVER_LETTER_FOR_PROFESSOR.md`
 - `handover/PF1_CANONICAL_PRODUCT_DOSSIER.md`
 - `docs/PF1_OPEN_SOURCE_RELEASE.md`
 - `docs/PF1_LAUNCH_REVIEW.md`

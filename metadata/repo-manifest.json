@@ -8,6 +8,7 @@
   "baselineExecutionId": "nereus-pf1-baseline-benchmark-execution:d144b749-1871-43c1-8497-d53ca7b17a9e",
   "claimPosture": "bounded_open_source_only",
   "handoverAssets": [
+    "handover/COVER_LETTER_FOR_PROFESSOR.md",
     "handover/PF1_CANONICAL_PRODUCT_DOSSIER.md",
     "handover/PROFESSOR_HANDOVER.md",
     "handover/TECHNICAL_BRIEF.md",

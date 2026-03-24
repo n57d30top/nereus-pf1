@@ -27,19 +27,21 @@ It is **not** shaped as:
 
 ## Recommended Reading Order
 
-1. `handover/PF1_CANONICAL_PRODUCT_DOSSIER.md`
-2. `handover/PROFESSOR_HANDOVER.md`
-3. `handover/TECHNICAL_BRIEF.md`
-4. `handover/PF1_CANDIDATE_MATERIAL_HYPOTHESES.md`
-5. `handover/PF1_FIRST_VALIDATION_PROGRAM.md`
-6. `handover/EVIDENCE_PACKAGE.md`
-7. `handover/PRODUCTION_READINESS_GAPS.md`
-8. `handover/QUESTIONS_FOR_PROFESSOR.md`
-9. `docs/CLAIM_GUARDRAILS.md`
+1. `handover/COVER_LETTER_FOR_PROFESSOR.md`
+2. `handover/PF1_CANONICAL_PRODUCT_DOSSIER.md`
+3. `handover/PROFESSOR_HANDOVER.md`
+4. `handover/TECHNICAL_BRIEF.md`
+5. `handover/PF1_CANDIDATE_MATERIAL_HYPOTHESES.md`
+6. `handover/PF1_FIRST_VALIDATION_PROGRAM.md`
+7. `handover/EVIDENCE_PACKAGE.md`
+8. `handover/PRODUCTION_READINESS_GAPS.md`
+9. `handover/QUESTIONS_FOR_PROFESSOR.md`
+10. `docs/CLAIM_GUARDRAILS.md`
 
 ## Included
 
 - sanitized `PF-1` technical release packet
+- one cover letter for direct professor outreach
 - one canonical PF-1 product dossier for fast technical handover
 - bounded launch-review summary
 - bounded benchmark-execution summary
