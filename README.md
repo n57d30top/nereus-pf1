@@ -52,7 +52,8 @@ If you only read a few files, read these in order:
 4. `handover/PF1_CANDIDATE_MATERIALS_TABLE.md`
 5. `handover/PF1_C1_EXPLORATORY_SYNTHESIS_SOP.md`
 6. `handover/PF1_X1_CRYSTALLINE_BRANCH.md`
-7. `handover/PF1_FIRST_VALIDATION_PROGRAM.md`
+7. `handover/PF1_PATENT_MAP.md`
+8. `handover/PF1_FIRST_VALIDATION_PROGRAM.md`
 
 ## What Is In The Repo
 
@@ -73,6 +74,7 @@ If you only read a few files, read these in order:
 
 ### Validation And Evidence
 
+- `handover/PF1_PATENT_MAP.md`
 - `handover/PF1_FIRST_VALIDATION_PROGRAM.md`
 - `handover/EVIDENCE_PACKAGE.md`
 - `handover/PRODUCTION_READINESS_GAPS.md`

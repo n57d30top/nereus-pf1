@@ -129,6 +129,7 @@ It is:
 - `handover/PF1_C1_EXPLORATORY_SYNTHESIS_SOP.md`
 - `handover/PF1_X1_CRYSTALLINE_BRANCH.md`
 - `structures/PF1_X1_HYPOTHETICAL_ACTIVE_PHASE.cif`
+- `handover/PF1_PATENT_MAP.md`
 - `handover/PF1_FIRST_VALIDATION_PROGRAM.md`
 - `handover/PRODUCTION_READINESS_GAPS.md`
 - `docs/PF1_LAUNCH_REVIEW.md`
