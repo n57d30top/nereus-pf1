@@ -22,7 +22,8 @@ For the fastest review path, please start with:
 1. `handover/PF1_CANONICAL_PRODUCT_DOSSIER.md`
 2. `handover/TECHNICAL_BRIEF.md`
 3. `handover/PF1_CANDIDATE_MATERIAL_HYPOTHESES.md`
-4. `handover/PF1_FIRST_VALIDATION_PROGRAM.md`
+4. `handover/PF1_CANDIDATE_MATERIALS_TABLE.md`
+5. `handover/PF1_FIRST_VALIDATION_PROGRAM.md`
 
 Thank you for taking a critical look at the package.
 
